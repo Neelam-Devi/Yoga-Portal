@@ -138,10 +138,16 @@ const Z1 = () => {
         </div>
 
         {/* Right Side: Background Image */}
-        <div
-          className="w-full md:w-1/2 h-64 md:h-auto bg-cover bg-center"
+        {/* <div
+          className="w-full md:w-1/2 h-[27rem]  md:h-auto bg-cover bg-center"
           style={{ backgroundImage: "url('/hero-img.png')" }}
-        ></div>
+        ></div> */}
+        <div
+  className="w-full md:w-1/2 aspect-[4/3] md:aspect-auto bg-center bg-no-repeat bg-contain md:bg-cover"
+  style={{ backgroundImage: "url('/hero-img.png')" }}
+></div>
+
+
       </div>
 
       {/* Bottom Section */}
