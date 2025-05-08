@@ -33,7 +33,7 @@ export const Search = () => {
     if (searchTerm) {
       setLoading(true);
       axios
-        .get(`http://sl.fitofyy.com/search?keyword=${searchTerm}`)
+        .get(`https://backendhausa.onrender.com/search?keyword=${searchTerm}`)
         .then((res) => setVideos(res.data || []))
         .catch((err) => {
           console.error('Error fetching videos:', err);
