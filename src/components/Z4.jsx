@@ -4,7 +4,8 @@ import React from 'react';
 
 const Z4 = () => {
   return (
-    <div className="relative w-full h-screen overflow-hidden flex items-center justify-center px-4 sm:px-8 lg:px-16 mb-0.5 mt-0.5">
+    <div className="relative w-full overflow-hidden 
+flex items-center justify-center px-4 sm:px-8 lg:px-16 mb-0.5 mt-0.5">
       {/* 🔥 Background Video */}
       <video
         autoPlay

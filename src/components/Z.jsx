@@ -305,13 +305,13 @@ const Z = () => {
           </label>
 
           
-          <Link
+          {/* <Link
             to="/login"
             className="block bg-[#64725A] hover:bg-[#4b5946] text-white text-sm text-center py-2 rounded-xl"
             onClick={() => setMenuOpen(false)}
           >
             Login
-          </Link>
+          </Link> */}
         </div>
       )}
     </div>
