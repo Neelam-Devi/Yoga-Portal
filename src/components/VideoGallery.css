@@ -1,0 +1,36 @@
+.pagination {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+  }
+  
+  .page {
+    padding: 8px 12px;
+    background-color: #e5e7eb;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .page:hover {
+    background-color: #d1d5db;
+  }
+  
+  .active {
+    background-color: #4b5946;
+    color: white;
+    font-weight: bold;
+  }
+  
+
+  .video-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .video-card:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  }
+  
