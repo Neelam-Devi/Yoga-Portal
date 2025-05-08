@@ -127,7 +127,8 @@ const VideoDetail = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
 
     axios
-      .get(`http://sl.fitofyy.com/singlevideo/${id}`)
+      // .get(`http://sl.fitofyy.com/singlevideo/${id}`)
+      .get(`https://backendhausa.onrender.com/singlevideo/${id}`)
       .then((response) => {
         setVideo(response?.data[0]);
       })

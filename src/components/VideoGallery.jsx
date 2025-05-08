@@ -181,7 +181,7 @@ const VideoGallery = () => {
 
   useEffect(() => {
     axios
-      .get("http://sl.fitofyy.com/videos/")
+      .get("https://backendhausa.onrender.com/videos/")
       .then((response) => setVideos(response.data))
       .catch((error) => console.error("Error fetching videos:", error));
   }, []);
