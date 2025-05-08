@@ -171,6 +171,7 @@ import './VideoGallery.css';
 
 const VideoGallery = () => {
   const [videos, setVideos] = useState([]);
+  console.log(videos,"==videos")
   const [currentPage, setCurrentPage] = useState(0);
   const location = useLocation();
 
@@ -182,7 +183,9 @@ const VideoGallery = () => {
   useEffect(() => {
     axios
       .get("https://backendhausa.onrender.com/videos/")
-      .then((response) => setVideos(response.data))
+      .then((response) => 
+        setVideos(response.data))
+      // console.log(response,"==response")
       .catch((error) => console.error("Error fetching videos:", error));
   }, []);
 
@@ -218,8 +221,16 @@ const VideoGallery = () => {
                 />
                 <div className="absolute inset-0 flex flex-col justify-end p-4 bg-gradient-to-t from-black to-transparent">
                   <p className="text-white">{video.views} Views</p>
+                  <p className="text-white ">{video.name} </p>
+
                 </div>
+                
               </div>
+
+              {/* name */}
+
+
+
             </Link>
           ))
         ) : (
