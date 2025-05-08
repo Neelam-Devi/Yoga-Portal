@@ -39,7 +39,7 @@ export default function Yoga() {
         Yin.
         </p>
         <p className="mb-6 text-sm leading-relaxed">
-        Awakening inner harmony through yoga involves a conscious effort to align the body, mind, and spirit, fostering a sense of well-being and inner peace. This is achieved through practices like meditation, mindfulness, and focused breathing, all of which help to cultivate a heightened state of awareness and connect with one's inner potential.
+        Awakening inner harmony through yoga involves a conscious effort to align the body, mind, and spirit, fostering a sense of well-being and inner peace. This is achieved through practices like meditation, mindfulness, and focused breathing, all of which help to cultivate a heightened state of awareness and connect with one inner potential.
         </p>
       </div>
     </div>
